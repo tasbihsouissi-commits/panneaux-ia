@@ -1,0 +1,28 @@
+# Environnements et caches Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Données et sorties volumineuses
+datasets/
+data/raw/
+data/processed/
+*.zip
+*.7z
+*.tar
+*.tar.gz
+
+# Poids de modèles, logs et résultats locaux
+*.pt
+*.pth
+runs/
+results/figures/
+results/metrics/
+
+# Fichiers locaux et éditeurs
+.env
+.vscode/
+.idea/
+.ipynb_checkpoints/
